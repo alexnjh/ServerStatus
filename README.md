@@ -1,11 +1,22 @@
 -----------------------------------------------
 
-                ServerStatus Rebild
-                By Munzy
+                ServerStatus Rebuild v2
+                By Alex
+				Based of ServerStatus Rebuild by Munzy
                 
 
 
 ![Screenshot](https://www.cameronmunroe.com/u/2015-10-29_11-30-11.png)
+
+-----------------------------------------------
+
+                Changes
+                
+-----------------------------------------------
+Updated to bootstrap 3 using template new
+
+Updated uptime_used.php to use MemAvailable to calculate free memory if exist. (Kernal 3.14+)
+
 
 -----------------------------------------------
 
