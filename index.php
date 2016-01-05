@@ -44,7 +44,7 @@ foreach($servers as $result) {
 			<tr>
 				<td id="online'.$id.'">
 					<div class="progress">
-						<div class="bar bar-danger" style="width: 100%;"><small>Down</small></div>
+						<div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 100%;"><small>Down</small></div>
 					</div>
 				</td>
 				<td><a href="outages.php?name='.$result["name"].'">'.$result["name"].'</td>
@@ -55,12 +55,12 @@ foreach($servers as $result) {
 				<td id="load'.$id.'">n/a</td>
 				<td id="memory'.$id.'">
 					<div class="progress progress-striped active">
-						<div class="bar bar-danger" style="width: 100%;"><small>n/a</small></div>
+						<div class="progress-bar progress-bar-danger" style="width: 100%;"><small>n/a</small></div>
 					</div>
 				</td>
 				<td id="hdd'.$id.'">
 					<div class="progress progress-striped active">
-						<div class="bar bar-danger" style="width: 100%;"><small>n/a</small></div>
+						<div class="progress-bar progress-bar-danger" style="width: 100%;"><small>n/a</small></div>
 					</div>
 				</td>
 			</tr>
